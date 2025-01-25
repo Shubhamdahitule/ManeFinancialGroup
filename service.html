@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mane Insurance</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <!-- <a href="https://www.google.com/maps/place/1185+Queensway+E+Suite+7,+Level+1,+Mississauga,+ON+L4Y+1S1,+Canada/@43.5995122,-79.5823303,17z/data=!3m1!4b1!4m5!3m4!1s0x882b47c04c82b9c9:0x7ecdca3d38e5b577!8m2!3d43.5995122!4d-79.5801416?shorturl=1" target="_blank" rel="noopener noreferrer">
+                    Address
+                  </a>                -->
+            </div>
+            
+            
+            <div class="col-lg-6 px-5 text-end">
+                <small>
+                    <i class="fa fa-envelope text-primary me-2"></i>
+                    <a href="mailto:info@maneinsurance.ca">info@maneinsurance.ca</a>
+                </small>
+                <small class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i> 647-448-6229</small>
+                <small class="ms-4">
+                    <a href="terms.html" class="text-primary">Terms and Conditions</a>
+                </small>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="display-5 text-primary m-0" style="display: flex; align-items: center; gap: 10px;">
+                    <img src="img/logo.png" alt="Logo" style="width: 160px; height: auto;">
+                    
+                  </h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link active">Services</a>
+                    <a href="investment.html" class="nav-item nav-link">Investment</a>
+                    <div class="nav-item dropdown">
+                        <!-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a> -->
+                        <!-- <div class="dropdown-menu border-light m-0">
+                            <a href="project.html" class="dropdown-item">Projects</a>
+                            <a href="feature.html" class="dropdown-item">Features</a>
+                            <a href="team.html" class="dropdown-item">Team Member</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div> -->
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="https://www.facebook.com/profile.php?id=100090433074108">
+                        <small class="fab fa-facebook-f text-primary"></small>
+                    </a>
+                    <!-- <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+                        <small class="fab fa-twitter text-primary"></small>
+                    </a> -->
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="https://www.linkedin.com/in/bhupendramane/">
+                        <small class="fab fa-linkedin-in text-primary"></small>
+                    </a>
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="https://wa.me/6474486229" target="_blank">
+                        <small class="fab fa-whatsapp text-success"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-4 animated slideInDown">Services</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <!-- <li class="breadcrumb-item"><a href="#">Pages</a></li> -->
+                    <li class="breadcrumb-item active" aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    
+   
+      
+
+
+    <!-- Service Start -->
+<div class="container-fluid service py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Our Services</h4>
+            <h1 class="display-4 mb-4">We Provide Best Services</h1>
+            <p class="mb-0">We offer insurance services that are tailored to meet your needs, ensuring reliable growth and peace of mind.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <!-- First Row (4 items) -->
+            <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/Travel-Insurance.png" class="img-fluid rounded-top w-100" alt="">
+                        <div class="business-icon p-3">
+                            <i class="fa fa-plane fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="service-content p-4">
+                        <div class="service-content-inner">
+                            <a href="#" class="d-inline-block h4 mb-4">Super Visa Insurance</a>
+                            <p class="mb-4">It is a new visa for parents and grandparents who want to visit their families in Canada for longer periods without having to renew their status. Applicants are required to purchase private Canadian medical insurance valid for at least one year. Benefits of Super Visa Insurance include:</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Enjoy a stress-free stay</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Benefits for your dependents</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>24-hour customer support</p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="contact.html">Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/life-insurance.png" class="img-fluid rounded-top w-100" alt="">
+                        <div class="business-icon p-3">
+                            <i class="fa fa-users fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="service-content p-4">
+                        <div class="service-content-inner">
+                            <a href="#" class="d-inline-block h4 mb-4">Life Insurance</a>
+                            <p class="mb-4">Term insurance is a type of life insurance that protects you for a given period of time or a specified term of years. It is extremely beneficial for anyone that has a mortgage to pay on their home, runs a business, wants to protect their income, or has dependents. Permanent life insurance stays in place for your whole life.</p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="contact.html">Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/businessinsurance.png" class="img-fluid rounded-top w-100" alt="">
+                        <div class="business-icon p-3">
+                            <i class="fa fa-hospital fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="service-content p-4">
+                        <div class="service-content-inner">
+                            <a href="#" class="d-inline-block h4 mb-4">Business Insurance</a>
+                            <p class="mb-4">Business insurance safeguards businesses against potential claims and legal issues. While taking risks is part of running a business, neglecting protective measures can result in financial losses. It is crucial as it helps protect against catastrophic events like natural disasters.</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Best Digital Experience</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Self-reliant Insurance Broker</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Your Coverage, Your Way</p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="contact.html">Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row (4 items) -->
+            <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="1s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/home-insurance.png" class="img-fluid rounded-top w-100" alt="">
+                        <div class="business p-3">
+                            <i class="fa fa-home fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="service-content p-4">
+                        <div class="service-content-inner">
+                            <a href="#" class="d-inline-block h4 mb-4">Visitor Insurance</a>
+                            <p class="mb-4">Visitor insurance protects foreign nationals in Canada from costly medical bills, as they are not covered by local or regional health plans. Mane Financial Group Inc. offers affordable, tailored plans to ensure financial security during your visit.</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Best Digital Experience</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Self-reliant Insurance Broker</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Your Coverage, Your Way</p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="contact.html">Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+
+
+
+
+
+
+<style>
+    /* Method 1: Adding margin-top */
+    .service {
+        margin-top: 5px;  /* Adjust for desired gap */
+    }
+  
+    /* Method 2: Adding padding-top */
+    .container-fluid.service {
+        padding-top: 50px;  /* Adjust for desired gap */
+    }
+  </style>
+  
+    
+
+
+
+    
+
+
+    <!-- Service Start -->
+    <!-- <div class="container-xxl service py-5">
+        <div class="container">
+            <!-- <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                 <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Our Services</p> -->
+                <!-- <h1 class="display-5 mb-5">Awesome Financial Services For Business</h1>
+            </div> 
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s"> --> -->
+                <!-- <div class="col-lg-4">
+                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Super Visa Insurance</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Term Life Insurance</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Home Insurance</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Business Loans</h5>
+                        </button>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/service-1.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Super Visa Insurance</h3>
+                                    <p class="mb-4">It is a new visa for parents and grandparents who want to visit their families in Canada for longer periods without having to renew their status. Applicants are required to purchase private Canadian medical insurance valid for at least one year. Benefits of Super Visa Insurance includes : </p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Complete support in a medical emergency
+                                </p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Enjoy a stress-free stay</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Specialized benefits for you and your dependents</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>24-hour customer support</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">GET A QUOTE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/service-2.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Term Life Insurance</h3>
+                                    <p class="mb-4">Term insurance is a type of life insurance that protects you for a given period of time or a specified term of years. It is extremely beneficial for anyone that has a mortgage to pay on their home, runs a business, wants to protect their income, or has dependents. Term insurance is the most cost-effective way of putting coverage in place.</p>
+                                    <h3 class="mb-4">Permanent Life Insurance</h3>
+                                    <p class="mb-4">Permanent life insurance is a type of life insurance that stays in place for your whole life. Depending on the type of permanent coverage you decide to put in place, it may grow in value over time with tax advantages.
+
+                                        Permanent insurance policies provide lifelong coverage, ensuring your beneficiary receives a tax-free payout upon your death to protect your assets and family.</p>
+                                   
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">GET A QUOTE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/service-3.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Home Insurance</h3>
+                                    <p class="mb-4">Home Insurance from Chase Insurance is vital for safeguarding your home against risks such as damage, theft, and liability claims. It offers homeowners peace of mind by ensuring their property is protected and their investment is secure, no matter what unexpected events may arise.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Best Digital Experience</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Your Coverage, Your Way</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Full Transparency</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>24x7 Support</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">GET A QUOTE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/service-4.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">BUSINESS INSURANCE</h3>
+                                    <p class="mb-4">Business insurance protects your business from potential claims and or legal issues. Every business faces unique risks. All Canadian businesses take some risks, but taking too many risks or failing to take protective measures can lead to business losses. Business insurance is important because it can help protect your business from financial loss in the event of a catastrophic event, such as a fire, flood, or natural disaster.
+
+                                        Business owners often get frustrated with the process of getting quote, understanding coverage needs, and who to trust.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Best Digital Experience</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Independent Insurance Broker</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Your Coverage, Your Way</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">GET A QUOTE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Service End -->
+
+
+
+
+    
+
+
+    
+
+
+    <!-- Callback Start -->
+    <!-- <div class="container-fluid callback mt-5 py-5">
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch</p>
+                            <h1 class="display-5 mb-5">Request A Call-Back</h1>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <label for="mail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                    <label for="mobile">Your Mobile</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Callback End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Our Office</h4>
+                    <i class="fa fa-map-marker-alt me-3"></i>
+                    <a href="https://www.google.com/maps/place/1185+Queensway+E+Suite+7,+Level+1,+Mississauga,+ON+L4Y+1S1,+Canada/@43.5995122,-79.5823303,17z/data=!3m1!4b1!4m5!3m4!1s0x882b47c04c82b9c9:0x7ecdca3d38e5b577!8m2!3d43.5995122!4d-79.5801416?shorturl=1" target="_blank" rel="noopener noreferrer">
+                        Address
+                    </a>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>647-448-6229</p>
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        <a href="mailto:info@maneinsurance.ca">info@maneinsurance.ca</a>
+                      </p>
+                      
+                      <div class="d-flex pt-2">
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.facebook.com/profile.php?id=100090433074108"><i class="fab fa-facebook-f"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.linkedin.com/in/bhupendramane/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Services</h4>
+                    <!-- <a class="btn btn-link" href="service.html">Financial Planning</a>
+                    <a class="btn btn-link" href="service.html">Cash Investment</a>
+                    <a class="btn btn-link" href="service.html">Financial Consultancy</a>
+                    <a class="btn btn-link" href="service.html">Business Loans</a>
+                    <a class="btn btn-link" href="service.html">Business Analysis</a> -->
+                    <a class="btn btn-link" href="service.html">Home Insurance</a>
+                    <a class="btn btn-link" href="service.html">Term Life Insurance</a>
+                    <a class="btn btn-link" href="service.html">Super Visa Insurance</a>
+                    <a class="btn btn-link" href="service.html">Business Insurance</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <!-- <a class="btn btn-link" href="">About Us</a> -->
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="contact.html">Terms & Condition</a>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Newsletter</h4>
+                    <p>Signup for our newsletter to get the latest news, updates and special offers in your inbox.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#"> Mane Financial Group Inc.</a>, All Right Reserved.
+                </div>
+                <!-- <div class="col-md-6 text-center text-md-end">
+                    /*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                   
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
