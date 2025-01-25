@@ -759,8 +759,8 @@ h6,
         padding: 10%;
     }
     .service .service-item .service-img {
-        height: 348px; /* Reduce height for mobile */
-        
+        height: auto; /* Reduce height for mobile */
+        padding-bottom: 1px;
     }
 }
 
